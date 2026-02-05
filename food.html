@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TastyBites | Step-by-Step Recipes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fff8f2;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #d35400;
+            color: white;
+            text-align: center;
+            padding: 25px 15px;
+        }
+
+        nav {
+            background: #e67e22;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            padding: 12px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .recipes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #d35400;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+        }
+
+        footer {
+            background: #d35400;
+            color: white;
+            text-align: center;
+            padding: 18px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TastyBites Recipes</h1>
+    <p>Easy Step-by-Step Homemade Dishes</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Meals</a>
+    <a href="#">Snacks</a>
+    <a href="#">Desserts</a>
+</nav>
+
+<section class="container">
+    <div class="recipes">
+
+        <!-- Recipe 1 -->
+        <div class="card">
+            <h3>🍝 Creamy Garlic Pasta</h3>
+            <strong>Ingredients:</strong>
+            <ul>
+                <li>2 cups pasta</li>
+                <li>1 cup fresh cream</li>
+                <li>3 cloves garlic (chopped)</li>
+                <li>½ cup grated cheese</li>
+                <li>Salt & pepper</li>
+            </ul>
+            <strong>Steps:</strong>
+            <ol>
+                <li>Boil pasta in salted water until soft. Drain and set aside.</li>
+                <li>Heat butter in a pan and sauté garlic until fragrant.</li>
+                <li>Add fresh cream and cook on low heat for 2–3 minutes.</li>
+                <li>Stir in cheese, salt, and pepper.</li>
+                <li>Add boiled pasta and mix well. Serve hot.</li>
+            </ol>
+        </div>
+
+        <!-- Recipe 2 -->
+        <div class="card">
+            <h3>🍛 Vegetable Fried Rice</h3>
+            <strong>Ingredients:</strong>
+            <ul>
+                <li>2 cups cooked rice</li>
+                <li>1 cup mixed vegetables</li>
+                <li>2 tbsp soy sauce</li>
+                <li>2 cloves garlic</li>
+                <li>1 tbsp oil</li>
+            </ul>
+            <strong>Steps:</strong>
+            <ol>
+                <li>Heat oil in a wok and sauté garlic.</li>
+                <li>Add vegetables and cook for 3–4 minutes.</li>
+                <li>Add cooked rice and mix well.</li>
+                <li>Pour soy sauce and stir-fry on high heat.</li>
+                <li>Cook for 2 more minutes and serve hot.</li>
+            </ol>
+        </div>
+
+        <!-- Recipe 3 -->
+        <div class="card">
+            <h3>🍗 Grilled Chicken</h3>
+            <strong>Ingredients:</strong>
+            <ul>
+                <li>2 chicken breasts</li>
+                <li>2 tbsp yogurt</li>
+                <li>1 tsp chili powder</li>
+                <li>1 tsp lemon juice</li>
+                <li>Salt & spices</li>
+            </ul>
+            <strong>Steps:</strong>
+            <ol>
+                <li>Mix yogurt, spices, lemon juice, and salt.</li>
+                <li>Coat chicken well with marinade.</li>
+                <li>Let it rest for at least 30 minutes.</li>
+                <li>Grill on medium heat for 6–7 minutes each side.</li>
+                <li>Cook until golden and serve hot.</li>
+            </ol>
+        </div>
+
+        <!-- Recipe 4 -->
+        <div class="card">
+            <h3>🥞 Fluffy Pancakes</h3>
+            <strong>Ingredients:</strong>
+            <ul>
+                <li>1 cup flour</li>
+                <li>1 tbsp sugar</li>
+                <li>1 egg</li>
+                <li>1 cup milk</li>
+                <li>1 tsp baking powder</li>
+            </ul>
+            <strong>Steps:</strong>
+            <ol>
+                <li>Mix flour, sugar, and baking powder.</li>
+                <li>Whisk egg and milk together.</li>
+                <li>Combine wet and dry ingredients to make batter.</li>
+                <li>Pour batter onto a hot pan.</li>
+                <li>Flip when bubbles form and cook until golden.</li>
+            </ol>
+        </div>
+
+        <!-- Recipe 5 -->
+        <div class="card">
+            <h3>🍫 Chocolate Mug Cake</h3>
+            <strong>Ingredients:</strong>
+            <ul>
+                <li>4 tbsp flour</li>
+                <li>2 tbsp cocoa powder</li>
+                <li>3 tbsp sugar</li>
+                <li>3 tbsp milk</li>
+                <li>2 tbsp oil</li>
+            </ul>
+            <strong>Steps:</strong>
+            <ol>
+                <li>Mix flour, cocoa powder, and sugar in a mug.</li>
+                <li>Add milk and oil. Stir until smooth.</li>
+                <li>Microwave on high for 1–2 minutes.</li>
+                <li>Check if cooked through.</li>
+                <li>Cool slightly and enjoy warm.</li>
+            </ol>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 TastyBites | Made for Food Lovers
+</footer>
+
+</body>
+</html>
